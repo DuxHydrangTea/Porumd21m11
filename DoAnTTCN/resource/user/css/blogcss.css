@@ -1,0 +1,86 @@
+
+.post-info-author {
+  display: flex;
+  height: 60px;
+  margin: 20px 0;
+}
+.post-info-author-avatar img {
+  border-radius: 50%;
+  margin-right: 20px;
+  height: 100%;
+}
+.post-info-author p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+.tm-blog-post i {
+  font-size: 0.9rem;
+}
+
+.form-comment {
+  border: 1px solid #c3c3c3;
+  /* min-height: 800px;
+  position: relative; */
+}
+.form-comment-inline {
+  /* position: absolute;
+  top: 20px;
+  bottom: 20px;
+  right: 20px;
+  left: 20px; */
+  margin: 20px;
+}
+.input-comment-form {
+  width: 100%;
+  padding: 20px;
+  border-bottom: 1px solid #c3c3c3;
+  display: flex;
+  justify-content: space-between;
+}
+.input-comment-form input {
+  width: 100%;
+  border: none;
+  outline: none;
+}
+.input-comment-form button {
+  border: none;
+  background-color: transparent;
+  border-radius: 3px;
+}
+.input-comment-form button:hover {
+  background-color: rgb(254, 205, 141);
+  color: white;
+}
+
+.comment-list {
+  margin-top: 40px;
+}
+.commenter {
+  margin-top: 40px;
+}
+.commenter-info {
+  display: flex;
+  align-items: center;
+}
+.commenter-img img {
+  border-radius: 50%;
+}
+.commenter-info-detail {
+  margin-left: 20px;
+}
+.commenter-info-detail p {
+  margin: 0;
+}
+.commenter-info-name {
+  font-weight: bold;
+}
+.commenter-info-date {
+  font-size: 0.9rem;
+}
+.comment-text {
+  color: black;
+  margin-left: 20px;
+}
+.right-can-u-know {
+  max-width: 340px;
+}

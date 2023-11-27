@@ -1,0 +1,39 @@
+.form-account {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin-bottom: 100px;
+  padding: 20px;
+  border: 1px solid #3c3c3c;
+  align-items: center;
+}
+.form-account h3 {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #3c3c3c;
+}
+.form-account-attribute {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+  width: 100%;
+}
+.center-form {
+  display: flex;
+  justify-content: center;
+}
+.form-account-redirect {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  width: 100%;
+}
+.btn-register {
+  width: 30%;
+  background-color: #53b356;
+  color: white;
+  border-radius: 3px;
+}
+.btn-register:hover {
+  background-color: white;
+  color: #53b356;
+}

@@ -1,0 +1,34 @@
+.createpost {
+  width: 100%;
+}
+.form-main {
+  width: 70%;
+}
+.createpost-attribute label {
+  width: 100%;
+}
+.createpost-attribute {
+  margin: 25px 0;
+}
+.createpost-attribute input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #c3c3c3;
+}
+.textarea-create {
+  display: flex;
+  flex-direction: column;
+}
+.btn-create-flex {
+  display: flex;
+  justify-content: end;
+}
+.btn-create {
+  width: 100px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.file-create-post {
+  border: 1px dashed #c3c3c3;
+}
